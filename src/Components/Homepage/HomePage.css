@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.find {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 800;
+  font-size: 40px;
+}

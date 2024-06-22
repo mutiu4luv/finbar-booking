@@ -1,0 +1,72 @@
+/* Hero.css */
+
+.fourth {
+  background-image: url("/public/fourth.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+.fourth-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.fourth-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.fourth-content p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.fourth-button {
+  padding: 15px 30px;
+  background-color: #f47b20;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.fourth-button:hover {
+  background-color: #e66a0f;
+}
+
+@media (max-width: 768px) {
+  .fourth-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .fourth-content p {
+    font-size: 1.2rem;
+  }
+
+  .fourth-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
