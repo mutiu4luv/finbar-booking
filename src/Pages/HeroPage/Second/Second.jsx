@@ -12,7 +12,7 @@ const Second = () => {
               Give us the privilege of praising God with you in your events and
               occasions
             </p>
-            <a href="/services" className="second-button">
+            <a href="/about" className="second-button">
               Find Out More
             </a>
           </div>
