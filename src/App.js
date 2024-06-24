@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HopePage />}></Route>
         <Route path="/about" element={<AboutScreen />}></Route>
-        {/* <Route path="/contact" element={<ContactScreen />}></Route> */}
+        <Route path="/contact" element={<ContactScreen />}></Route>
       </Routes>
 
       <header className="App-header"> </header>

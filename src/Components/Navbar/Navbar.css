@@ -1,9 +1,11 @@
-/* NavBar.css */
+/* Navbar.css */
 
 .navbar {
-  background-color: #222;
+  background-color: #333; /* Ensure transparency if you have a background image */
   color: #fff;
   padding: 15px 0;
+  position: relative; /* Relative positioning for stacking context */
+  z-index: 1000; /* High z-index to be above background image */
 }
 
 .navbar-container {
@@ -12,6 +14,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative; /* Relative positioning for stacking context */
 }
 
 .navbar-logo a {
@@ -57,12 +60,10 @@
 
 .navbar-toggle {
   display: none;
-}
-
-.navbar-toggle {
-  display: none;
-  margin-left: auto;
+  position: relative;
+  z-index: 1100; /* Higher z-index to ensure it's above the background image */
   cursor: pointer;
+  margin-left: -10px; /* Adjust this value to shift the icon to the left */
 }
 
 .navbar-toggle i {
@@ -92,13 +93,21 @@
     left: 0;
     width: 100%;
     padding: 20px;
+    z-index: 1050; /* Ensure it appears above other content */
   }
 
   .navbar-toggle {
     display: block;
     margin-left: auto;
-
     cursor: pointer;
+    z-index: 1100; /* Ensure the toggle button is above other content */
+    margin-left: 320px;
+  }
+
+  .navbar-toggle.active {
+    display: block;
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
   }
 
   .navbar-toggle i {
