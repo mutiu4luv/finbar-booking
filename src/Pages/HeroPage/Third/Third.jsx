@@ -12,7 +12,7 @@ const Third = () => {
               powerful messages that come out of our church weekly!
             </p>
             <a href="/services" className="third-button">
-              logo Church YouTube Channel
+              finbarrsax YouTube Channel
             </a>
           </div>
         </div>

@@ -123,7 +123,7 @@ const Footer = () => {
             <img src="/public/finbar2.jpg" alt="" />
             <p>A brief description of your church and its mission.</p>
             <ul className="social-icons">
-              <li>
+              {/* <li>
                 <a href="/">
                   <i className="fa-brands fa-facebook"></i>
                 </a>
@@ -132,10 +132,32 @@ const Footer = () => {
                 <a href="/">
                   <i className="fa-brands fa-twitter"></i>
                 </a>
+              </li> */}
+              <li>
+                <a
+                  href="https://www.instagram.com/finbarregwuagu?igsh=MTYxNDA0cGtvN3p6bA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
               </li>
               <li>
-                <a href="/">
-                  <i className="fa-brands fa-instagram"></i>
+                <a
+                  href="https://www.tiktok.com/@finbarr.egwuagu?_t=8nSs8Hasu7U&_r=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-tiktok"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/message/DSSUSJAZYBAMB1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
             </ul>
@@ -144,11 +166,14 @@ const Footer = () => {
             <h3>Contact Information:</h3>
             <ul>
               <li>
-                <i className="fa-solid fa-phone"></i> Phone: +447587312901
+                <i className="fa-solid fa-phone"></i> Phone:
+                <a href="tel:+447587312901">+447587312901</a>
               </li>
               <li>
                 <i className="fa-solid fa-envelope"></i> Email:
-                finbarregwuagu@gmail.com
+                <a href="mailto:finbarregwuagu@gmail.com">
+                  finbarregwuagu@gmail.com
+                </a>
               </li>
               <li>
                 <i className="fa-solid fa-map-marker-alt"></i> Address:
@@ -160,11 +185,14 @@ const Footer = () => {
             <h3> Designed by:</h3>
             <ul>
               <li>
-                <i className="fa-solid fa-phone"></i> Phone: +2347031911306
+                <i className="fa-solid fa-phone"></i> Phone:
+                <a href="tel:+2347031911306">+2347031911306</a>
               </li>
               <li>
                 <i className="fa-solid fa-envelope"></i> Email:
-                chidiemmamadu@gmail.com
+                <a href="mailto:chidiemmamadu@gmail.com">
+                  chidiemmamadu@gmail.com
+                </a>
               </li>
             </ul>
           </div>
