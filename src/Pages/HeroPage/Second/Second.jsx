@@ -7,10 +7,10 @@ const Second = () => {
       <div className="seconds">
         <div className="second-overlay">
           <div className="second-content">
-            <h1>SUNDAYS</h1>
+            <h1>MUSIC</h1>
             <p>
-              Join us in person across the Wimmera for our Sunday 10:30AM
-              Services, or join us online.
+              Give us the privilege of praising God with you in your events and
+              occasions
             </p>
             <a href="/services" className="second-button">
               Find Out More

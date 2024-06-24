@@ -6,7 +6,7 @@ const Third = () => {
       <div className="third">
         <div className="third-overlay">
           <div className="third-content">
-            <h1>LOVE THE WORD?</h1>
+            <h1>Do You Love Music?</h1>
             <p>
               Subscribe to our YouTube Channel to stay up to date on the
               powerful messages that come out of our church weekly!

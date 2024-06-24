@@ -6,9 +6,9 @@ const First = () => {
     <div className="main">
       <div className="bold">WE EXIST TO KNOW JESUS & MAKE HIM KNOWN</div>
       <div className="you">
-        You belong here: whether you have never been in church before, or have
-        spent your whole life in faith. There is a place for everyone. Young,
-        old, single, married, there is a place for you at Harvest Church.
+        Through the harmony we bring through music, we express the love of God
+        to all that exists, and create a serene atmosphere to the human
+        existence in general
       </div>
     </div>
   );

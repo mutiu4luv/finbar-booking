@@ -144,15 +144,15 @@ const Footer = () => {
             <h3>Contact Information:</h3>
             <ul>
               <li>
-                <i className="fa-solid fa-phone"></i> Phone: +447957977715
+                <i className="fa-solid fa-phone"></i> Phone: +447587312901
               </li>
               <li>
                 <i className="fa-solid fa-envelope"></i> Email:
                 finbarregwuagu@gmail.com
               </li>
               <li>
-                <i className="fa-solid fa-map-marker-alt"></i> Address: 123 Main
-                Street, Anytown, CA 12345
+                <i className="fa-solid fa-map-marker-alt"></i> Address:
+                Thirkleby Close, Slough, Berkshire. United Kingdom
               </li>
             </ul>
           </div>

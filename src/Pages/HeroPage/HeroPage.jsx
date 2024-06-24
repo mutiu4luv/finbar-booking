@@ -37,7 +37,7 @@ const Hero = () => {
               {type}
             </span>
           </h1>
-          <p>Join us for worship and community events</p>
+          <p>Allow us bring harmony to your events</p>
           <a href="/services" className="hero-button">
             Learn More
           </a>
