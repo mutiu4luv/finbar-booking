@@ -11,46 +11,46 @@ import Footer from "../Footer/Footer";
 const HopePage = () => {
   const cardData = [
     {
-      title: "CONNECT GROUPS",
+      title: "Nwokedi Benedicta",
       description:
-        "We are all about connection, building meaningful relationships, and growing together in our relationships with God. We would love to help you find a group that is right for you.",
-      imageUrl: "second.jpg",
-      button: "Find out more >",
+        "Every occasion is memorable to the guests if good music is performed.Thinking of how to make this possible? Finbarr has a unique way of leaving your guests with a lasting experience.I've witnessed him play the saxophone and keyboard with a finely tuned touch at various events, and all I can say is that everyone left with a bold smile.Don’t plan your next event without adding him to your list. His talent brings an unforgettable atmosphere, turning ordinary gatherings into extraordinary celebrations.",
+      imageUrl: "benedicta.jpg",
+      // button: "Find out more >",
     },
     {
-      title: "HARVEST KIDS",
+      title: "John Boss Music",
       description:
-        "We're a church dedicated to making life better for kids and their parents. We offer a wide range of programs to teach, encourage and support spiritual growth of families.",
-      imageUrl: "church.jpeg",
-      button: "Learn more >",
+        "Finbarrsax musical is a trusted Brand in Inspiring and scintillating music performance. I have had a firsthand experience of his Services/Performance,he has shown mastery and class in music performance",
+      imageUrl: "john.jpg",
+      // button: "Learn more >",
     },
     {
-      title: "EMPIRE YOUTH",
+      title: "Anointing Praise",
       description:
-        "Empire Youth is the youth ministry of Harvest Church, meeting each Friday night of the school term at 7PM.",
-      imageUrl: "backgroundChurch.jpg",
-      button: "Join us >",
+        "It was on a Sunday morning and I was in church as usual and during the responsorial psalms Finbar took the microphone and took us to heaven his voice was so powerful yet smooth. When ever he plays the saxophone I hear the angles sing along and when he is on the keyboard the church is always blessed. Thank you so much sir for letting God use you and your instrument for his Glory.",
+      imageUrl: "praise.jpg",
+      // button: "Join us >",
     },
     {
-      title: "HARVEST WOMEN",
+      title: "Emerenini Brendan",
       description:
-        "Harvest Women is a welcoming and encouraging community within our church, with a number of great events running each week.",
-      imageUrl: "backgroundChurch.jpg",
-      button: "Join us >",
+        "There are so many Noise in places of worship today in the name of Music. Encountering Finbarr and his music school will help you know what it means when they say Music is an organised noise and it's pleasing to the soul... I am a testimony of his spirit-filled music.",
+      imageUrl: "Brendan.jpg",
+      // button: "Join us >",
     },
     {
-      title: "YOUNG ADULTS",
+      title: "Elijah Chukwuma",
       description:
-        "HYA is the Young Adults ministry of Harvest Church, with the vision is to create a vibrant and welcoming community of young adults within the Wimmera.",
-      imageUrl: "second.jpg",
-      button: "Join us >",
+        "Helloo friends... it's been decades working with FinbarSax and he has shown to be reliable Musically, contact him for your events for a classic performance. He is grounded in all aspects of music once his on that Sax he gives his best.So guys he is open for any kinds of occasions, contact him.FinbarrSax.",
+      imageUrl: "chukwuma.jpg",
+      // button: "Join us >",
     },
     {
-      title: "HARVEST PLAYGROUP",
+      title: " Ezirim Kingsley",
       description:
-        "A welcoming community for families across the Wimmera, running each week on a Thursday morning.",
-      imageUrl: "church.jpeg",
-      button: "Join us >",
+        "Finbarr sax as popularly know,is a lover of music,to the extent that he learnt how to play virtually all the music instruments,his stage performance is one of the best so far....his voice inspires and heals alot of broken hearts,trust finbarr for anything music",
+      imageUrl: "kingsley.jpg",
+      // button: "Join us >",
     },
   ];
 
