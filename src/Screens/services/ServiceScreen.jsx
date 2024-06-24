@@ -29,33 +29,34 @@ const ServiceScreen = () => {
             <h3 class="heading">Our Featured Services</h3>
             <div class="service-card">
               <i class="fas fa-rocket"></i>
-              <h4>Web Development</h4>
+              <h4>Singing at Events</h4>
               <p>
-                We design and develop high-quality websites that meet your
-                specific needs and goals.
+                We play the keyboard and sing at events such as funerals, giving
+                you a sonorous selection of hymns well rendered.
               </p>
             </div>
             <div class="service-card">
               <i class="fas fa-chart-line"></i>
-              <h4>Data Analysis</h4>
+              <h4>Saxophone renditions</h4>
               <p>
-                We help you make sense of your data with our advanced analytics
-                tools and expertise.
+                We keep you entertained with the beautiful sound of the
+                saxophone, delivering harmonious and soothing musics to suite
+                your events and occasions.
               </p>
             </div>
             <div class="service-card">
               <i class="fas fa-lightbulb"></i>
-              <h4>Marketing Solutions</h4>
+              <h4>Choir support</h4>
               <p>
-                We create effective marketing campaigns that reach your target
-                audience and drive results.
+                We support your choir with playing the keyboard or the saxophone
+                to spice up your singing and choir renditions, and also
+                presenting at church events.
               </p>
             </div>
             <div class="service-card">
               <i class="fas fa-lock"></i>
               <p>
-                We provide secure and reliable IT solutions to keep your
-                business running smoothly.
+                We produce secure and reliable music to keep your heart lifted.
               </p>
             </div>
           </section>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./HomePage.css";
 import Hero from "../../Pages/HeroPage/HeroPage";
 import First from "../../Pages/HeroPage/First/First";
@@ -7,8 +7,24 @@ import Third from "../../Pages/HeroPage/Third/Third";
 import Cards from "../Cards/Cards";
 import Fourth from "../../Pages/Fourth/Fourth";
 import Footer from "../Footer/Footer";
-
+import VideoBackground from "../../Pages/HeroPage/video/videoBackground";
+import video from "../assests/video.mp4";
 const HopePage = () => {
+  // const videoRef = useRef(null);
+
+  // const handlePlay = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.play();
+  //   }
+  // };
+
+  const videoRef = useRef(null);
+
+  const handlePlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
   const cardData = [
     {
       title: "NWOKEDI BENEDICTA",
@@ -73,6 +89,14 @@ const HopePage = () => {
           />
         ))}
       </div>
+      {/* <VideoBackground
+        videoSrc={video}
+        muted={false}
+        ref={videoRef}
+        title="Welcome to My Website"
+        description="This is an example of a background video in a Material-UI card."
+      /> */}
+
       <Fourth />
       <Footer />
     </div>
