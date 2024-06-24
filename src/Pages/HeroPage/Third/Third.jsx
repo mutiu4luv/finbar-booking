@@ -11,8 +11,14 @@ const Third = () => {
               Subscribe to our YouTube Channel to stay up to date on the
               powerful messages that come out of our church weekly!
             </p>
-            <a href="/services" className="third-button">
-              finbarrsax YouTube Channel
+
+            <a
+              href="https://www.youtube.com/@Finbarrsaxmusicals"
+              className="third-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FINBARRSAX YOUTUBE CHANNELS
             </a>
           </div>
         </div>
