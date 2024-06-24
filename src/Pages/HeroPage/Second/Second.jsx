@@ -13,7 +13,7 @@ const Second = () => {
               occasions
             </p>
             <a href="/about" className="second-button">
-              Find Out More
+              Know More
             </a>
           </div>
         </div>
