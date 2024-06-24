@@ -1,18 +1,18 @@
 /* ContactUs.css */
 
-.contact-container {
+.contacts-containers {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: grey;
   min-height: 100vh;
 }
 
 h1 {
   margin-bottom: 20px;
-  color: #333;
+  color: #f01414;
 }
 
 .contact-info {

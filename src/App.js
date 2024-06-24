@@ -3,7 +3,7 @@ import "./App.css";
 import HopePage from "./Components/Homepage/HopePage";
 import NavBar from "./Components/Navbar/Navbar";
 import AboutScreen from "./Screens/AboutScreen/AboutScreen";
-import ContactScreen from "./Screens/ContactScreen";
+import ContactScreen from "./Screens/contactUs/ContactScreen";
 
 function App() {
   return (
