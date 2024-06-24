@@ -38,7 +38,7 @@ const Hero = () => {
             </span>
           </h1>
           <p>Allow us bring harmony to your events</p>
-          <a href="/services" className="hero-button">
+          <a href="/about" className="hero-button">
             Learn More
           </a>
         </div>
