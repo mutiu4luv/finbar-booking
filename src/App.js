@@ -19,8 +19,6 @@ function App() {
         <Route path="/services" element={<ServiceScreen />}></Route>
       </Routes>
 
-      <header className="App-header"> </header>
-
       {/* </BrowserRouter> */}
     </div>
   );

@@ -74,7 +74,11 @@
   font-family: monospace;
   color: red;
 }
-
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 4px;
+}
 @media (min-width: 600px) {
   .footer-content {
     flex-direction: row;

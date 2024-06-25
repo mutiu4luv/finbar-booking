@@ -13,7 +13,7 @@ const ServiceScreen = () => {
           <section class="hero-two">
             <h2>We Offer a Wide Range of Services</h2>
             <p>
-              Here at Finbarrsax Musicals, we beautiful your events, church
+              Here at Finbarrsax Musicals, we beautify your events, church
               programs, social and cultural gatherings, ceremonies, celebrations
               and church gatherings with wonderful saxophone renditions,
               keyboard accompaniments and harmonious choral displays.
