@@ -84,6 +84,8 @@
 // export default Footer;
 
 import React, { useEffect, useState } from "react";
+import logo from "../assests/finbarNavbar.jpg";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -119,8 +121,12 @@ const Footer = () => {
       <footer className="church-footer">
         <div className="footer-content">
           <div className="footer-info">
-            <i className="fa-solid fa-church"></i>{" "}
-            <img src="/public/finbar2.jpg" alt="" />
+            {/* <i className="fa-solid fa-church"></i>{" "} */}
+            <div className="navbar-logo">
+              <a href="/">
+                <img src={logo} alt="Logo" className="navbar-logo-image" />
+              </a>
+            </div>
             <p>A brief description of your church and its mission.</p>
             <ul className="social-icons">
               {/* <li>

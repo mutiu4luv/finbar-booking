@@ -1,6 +1,7 @@
 /* ContactUs.css */
 
 .contacts-containers {
+  background-image: url("/public/finbar3.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
