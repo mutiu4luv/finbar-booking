@@ -127,7 +127,7 @@ const Footer = () => {
                 <img src={logo} alt="Logo" className="navbar-logo-image" />
               </a>
             </div>
-            <p>A brief description of your church and its mission.</p>
+            <p>Follow us on our social media platforms below.</p>
             <ul className="social-icons">
               {/* <li>
                 <a href="/">

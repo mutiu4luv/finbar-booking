@@ -1,12 +1,16 @@
 import React from "react";
 import "./AboutScreen.css";
 import Footer from "../../Components/Footer/Footer";
+import finbar from "../../Components/assests/finbar3.jpg";
 
 const AboutScreen = () => {
   return (
     <div className="about">
       <div className="about-hero">
         {/* <h1 className="about-header">about us</h1> */}
+        <div className="img-finbar">
+          <img src={finbar} alt="Logo" className="finbar-image" />
+        </div>
       </div>
       <div className="about-content-con">
         <div className="about-content">
