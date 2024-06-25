@@ -28,7 +28,18 @@
   text-align: center;
   z-index: 1;
 }
-
+.fourth-content a {
+  padding: 15px 30px;
+  background-color: #f47b20;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+.fourth-content a:hover {
+  background-color: #e66a0f;
+}
 .fourth-content h1 {
   font-size: 4rem;
   margin-bottom: 20px;

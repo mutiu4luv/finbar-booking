@@ -9,13 +9,17 @@ const Fourth = () => {
           <div className="fourth-content">
             <h1>WANT TO STAY UP TO DATE?</h1>
             <p>
-              Sign up for our weekly newsletter, full of upcoming events, church
-              announcements, and encouraging messages from Ps Andrew & Rachel
-              Cartledge!
+              do well to follow our Tiktok handle, as we keep you entertained
+              with musical renditions of different kinds, soothing for
+              entertainment and for personal consumption.
             </p>
-            {/* <a href="/services" className="fourth-button">
-              Sign Up Here
-            </a> */}
+            <a
+              href="https://www.tiktok.com/@finbarr.egwuagu?_t=8nSs8Hasu7U&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tiktok{" "}
+            </a>
           </div>
         </div>
       </div>
