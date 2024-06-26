@@ -37,7 +37,7 @@ const HopePage = () => {
       title: "JOHN BOSS MUSIC",
       description:
         "Finbarrsax musical is a trusted Brand in Inspiring and scintillating music performance. I have had a firsthand experience of his Services/Performance,he has shown mastery and class in music performance",
-      imageUrl: "john.jpg",
+      imageUrl: "dav.jpg",
       // button: "Learn more >",
     },
     {
