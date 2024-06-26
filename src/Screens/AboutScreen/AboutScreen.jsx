@@ -8,9 +8,9 @@ const AboutScreen = () => {
     <div className="about">
       <div className="about-hero">
         {/* <h1 className="about-header">about us</h1> */}
-        <div className="img-finbar">
+        {/* <div className="img-finbar">
           <img src={finbar} alt="Logo" className="finbar-image" />
-        </div>
+        </div> */}
       </div>
       <div className="about-content-con">
         <div className="about-content">

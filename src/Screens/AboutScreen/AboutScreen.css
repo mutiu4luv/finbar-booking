@@ -1,10 +1,14 @@
 /* about.css */
 
 .about-hero {
-  /* background-image: url("/public/finbarNavbar.jpg"); */
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
+  background-image: url("/public/finbar3.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* background-color: grey; */
+  min-height: 100vh;
 }
 .about-header {
   color: #fff;
@@ -36,7 +40,7 @@
 .about-content-con {
   background-color: cornsilk;
   color: grey;
-  margin-top: 450px;
+  /* margin-top: 450px; */
 }
 .about-content {
   text-align: left;

@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
+import "./Cards.css";
 
 export default function MultiActionAreaCard({
   title,
@@ -12,11 +13,24 @@ export default function MultiActionAreaCard({
   button,
 }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} className="card-main">
       <CardActionArea>
-        <CardMedia component="img" height="140" image={imageUrl} alt={title} />
+        <div className="card-pix">
+          <CardMedia
+            component="img"
+            height="140"
+            image={imageUrl}
+            alt={title}
+            className="card-img"
+          />
+        </div>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            className="title"
+          >
             {title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
