@@ -34,7 +34,7 @@ const HopePage = () => {
       // button: "Find out more >",
     },
     {
-      title: "JOHN BOSS MUSIC",
+      title: "AMUOGU CHIBUZOR DAVID",
       description:
         "Finbarrsax musical is a trusted Brand in Inspiring and scintillating music performance. I have had a firsthand experience of his Services/Performance,he has shown mastery and class in music performance",
       imageUrl: "dav.jpg",
