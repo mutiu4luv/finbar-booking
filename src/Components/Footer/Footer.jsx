@@ -122,9 +122,18 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-info">
             {/* <i className="fa-solid fa-church"></i>{" "} */}
-            <div className="navbar-logo">
+            <div
+              style={{
+                color: "white",
+                fontSize: "25px",
+                fontWeight: "bold",
+                cursor: "pointer",
+              }}
+              className="navbar-logo"
+            >
               <a href="/">
-                <img src={logo} alt="Logo" className="navbar-logo-image" />
+                Finbarrsax
+                {/* <img src={logo} alt="Logo" className="navbar-logo-image" /> */}
               </a>
             </div>
             <p>Follow us on our social media platforms below.</p>

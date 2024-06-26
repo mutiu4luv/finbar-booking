@@ -1,11 +1,12 @@
 /* Navbar.css */
 
 .navbar {
-  background-color: #333; /* Ensure transparency if you have a background image */
+  background-color: #333;
   color: #fff;
   padding: 15px 0;
-  position: relative; /* Relative positioning for stacking context */
-  z-index: 1000; /* High z-index to be above background image */
+  position: relative;
+  z-index: 1000;
+  height: 70px;
 }
 
 .navbar-container {
@@ -119,4 +120,8 @@
     color: #fff;
     font-size: 1.5rem;
   }
+}
+.Typography {
+  font-size: bold;
+  color: red;
 }
