@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 import "./HomePage.css";
 import Hero from "../../Pages/HeroPage/HeroPage";
 import First from "../../Pages/HeroPage/First/First";
@@ -7,8 +7,8 @@ import Third from "../../Pages/HeroPage/Third/Third";
 import Cards from "../Cards/Cards";
 import Fourth from "../../Pages/Fourth/Fourth";
 import Footer from "../Footer/Footer";
-import VideoBackground from "../../Pages/HeroPage/video/videoBackground";
-import video from "../assests/video.mp4";
+// import VideoBackground from "../../Pages/HeroPage/video/videoBackground";
+// import video from "../assests/video.mp4";
 const HopePage = () => {
   // const videoRef = useRef(null);
 
@@ -18,13 +18,13 @@ const HopePage = () => {
   //   }
   // };
 
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  const handlePlay = () => {
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
-  };
+  // const handlePlay = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.play();
+  //   }
+  // };
   const cardData = [
     {
       title: "NWOKEDI BENEDICTA",

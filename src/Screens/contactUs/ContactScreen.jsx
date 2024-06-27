@@ -38,7 +38,9 @@ const ContactScreen = () => {
           <i className="fas fa-envelope"></i> Email
         </a>
       </div>
+
       {/* <img src="/public/finbar1.jpg" alt="uy" /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
